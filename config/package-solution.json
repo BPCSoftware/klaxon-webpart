@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "klaxon-webpart-client-side-solution",
+    "id": "9dc43d95-ca2c-4b8d-bc99-89f5c4ae5db6",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/klaxon-webpart.sppkg"
+  }
+}

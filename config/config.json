@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "klaxon-services-status-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/klaxonServicesStatus/KlaxonServicesStatusWebPart.js",
+          "manifest": "./src/webparts/klaxonServicesStatus/KlaxonServicesStatusWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "KlaxonServicesStatusWebPartStrings": "lib/webparts/klaxonServicesStatus/loc/{locale}.js"
+  }
+}
